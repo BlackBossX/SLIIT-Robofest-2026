@@ -1,0 +1,955 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5660737035261661 0.5444338038661863 -0.6189930495441486 2.074493153198579
+  position 3.071045731443383 3.0172115933088395 2.507618939280889
+  follow "robot:gyro"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Wall {
+  translation 2.58251 0.0982226 3.55272e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(1)"
+  size 0.012 5.04 0.1
+}
+Wall {
+  translation -1.19528 -2.41969 4.4409e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(3)"
+  size 0.012 2.52 0.1
+}
+Wall {
+  translation 1.32515 2.62038 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(6)"
+  size 0.012 2.52 0.1
+}
+Wall {
+  translation 1.67515 2.62003 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(101)"
+  size 0.012 2.52 0.1
+}
+Wall {
+  translation 1.32551 2.98038 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(98)"
+  size 0.012 2.52 0.1
+}
+Wall {
+  translation 1.8642 2.26653 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(7)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.51132 1.5398 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(10)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.0639144 1.89998 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(31)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -2.09816 1.89864 4.4409e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(53)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -2.10079 0.100989 4.4409e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(60)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -1.74106 -0.25743 4.4409e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(62)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -1.74494 -1.69809 7.10544e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(69)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.0695387 -0.619152 6.66135e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(84)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.421482 -0.9827 4.88499e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(85)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.14832 -0.626944 4.88499e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(87)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 2.04401 1.90032 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(12)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.959814 1.17812 4.79617e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(14)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.603478 0.819688 4.79617e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(34)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.967162 1.9038 4.79617e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(27)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.244244 2.25945 4.79617e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(29)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.838286 0.820354 8.9484e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(49)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.55821 2.25983 9.02612e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(50)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.55564 1.18074 9.05942e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(56)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.91677 0.820181 8.77077e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(59)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -2.27346 -1.34086 8.59313e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(65)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -2.62346 -1.34051 8.59313e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(97)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.474797 -2.05987 8.64864e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(75)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.239989 -2.06062 8.59313e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(76)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.605482 -1.69926 8.59313e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(93)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.19312 -1.34304 2.05835e-13
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(68)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.839273 -0.980816 2.05835e-13
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(80)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.55799 -0.981228 8.85958e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(66)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -2.27441 1.18448 9.03722e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(57)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 1.68735 0.0985587 4.75176e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(21)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 2.04233 -0.257085 8.70415e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(23)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 1.68365 -0.978495 8.70415e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(90)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.476169 1.18055 8.70415e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(45)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 1.86483 1.35951 3.88579e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(13)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 2.22425 0.278811 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(19)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 1.14708 2.08293 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(26)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.65718 2.43869 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(46)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.656892 2.79869 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(102)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -2.09625 2.08059 3.55272e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(52)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.73444 1.36067 3.77476e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(55)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.7383 0.282429 -9.05942e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(61)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -2.09907 -1.88026 -9.05942e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(70)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -1.73571 -2.23994 -9.05942e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(71)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.30031 -2.2349 -9.04832e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(74)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.300606 -2.6049 -9.04832e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(40)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.655704 -1.15505 -9.05942e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(81)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.418916 -2.23945 -9.05942e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(77)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.785496 -0.802151 -8.88178e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(86)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 0.0609578 2.44561 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(30)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 1.50425 0.279387 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(20)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation -0.295618 -0.0803203 2.66454e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(39)"
+  size 0.012 0.36 0.1
+}
+Wall {
+  translation 1.14479 1.00211 3.99681e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(15)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation -0.659608 -0.0803816 3.99681e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(41)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation -1.74066 -1.1583 3.99681e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(67)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation -1.37728 0.100224 5.32908e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(64)"
+  size 0.012 2.16 0.1
+}
+Wall {
+  translation -1.01694 -0.980571 4.4409e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(73)"
+  size 0.012 2.16 0.1
+}
+Wall {
+  translation 0.423951 0.640067 3.99681e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(35)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation 1.13768 -1.51896 3.99681e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(92)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation 2.22165 -1.33504 3.55272e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(96)"
+  size 0.012 1.44 0.1
+}
+Wall {
+  translation 0.784889 2.0731 3.99681e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(25)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation 1.69391 0.819386 4.88499e-15
+  rotation 0 0 -1 -1.5700053071795859
+  name "frontWall(16)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation -0.477768 -1.70052 -3.77476e-14
+  rotation 0 0 -1 -1.5700053071795859
+  name "frontWall(79)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation 0.248295 1.53256 4.88499e-15
+  rotation 0 0 -1 -1.5700053071795859
+  name "frontWall(28)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation -1.55863 1.53809 4.88499e-15
+  rotation 0 0 -1 -1.5700053071795859
+  name "frontWall(54)"
+  size 0.012 1.08 0.1
+}
+Wall {
+  translation 1.86589 1.18063 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(11)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.14374 0.459949 2.66454e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(17)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -0.658082 0.458887 2.77556e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(42)"
+  size 0.012 1.44 0.1
+}
+Wall {
+  translation 0.783026 0.0987868 6.21725e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(36)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.60749 -0.25517 -2.39808e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(38)"
+  size 0.012 1.8 0.1
+}
+Wall {
+  translation 0.602529 -1.33958 -2.52021e-14
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(82)"
+  size 0.012 1.8 0.1
+}
+Wall {
+  translation 2.22413 0.4616 2.66454e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(18)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 2.59413 0.461304 2.66454e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(37)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 2.22154 -0.619876 2.66454e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(24)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.50275 -1.70599 2.66454e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(91)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.86416 -2.06788 2.66454e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(95)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.86007 -0.263819 3.10863e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(22)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -0.295997 1.89987 3.10863e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(32)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -1.0162 2.25944 3.10863e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(47)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.0614275 1.1805 3.10863e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(33)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -0.297855 0.822483 3.10863e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(43)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -0.657923 1.54004 2.99761e-15
+  rotation 0 0 -1 3.13584
+  name "frontWall(44)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -1.01688 1.18351 1.66534e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(48)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -2.09533 -0.617908 1.66534e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(63)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -1.3834 -2.05855 1.22125e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(72)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.0634396 -1.70129 1.66534e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(78)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 0.783635 -2.06155 1.66534e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(94)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -0.296166 -0.973659 7.77162e-16
+  rotation 0 0 1 3.1408
+  name "frontWall(83)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.50659 -0.61869 4.42979e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(88)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.86196 -1.33738 4.42979e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(89)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -1.37854 1.89914 3.94129e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(51)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation -2.09684 0.818235 3.74145e-14
+  rotation 0 0 1 3.1408
+  name "frontWall(58)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 2.22239 1.89797 3.55272e-15
+  rotation 0 0 -1 0.000788985
+  name "frontWall(8)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.50239 1.89869 3.55272e-15
+  rotation 0 0 -1 0.000788985
+  name "frontWall(9)"
+  size 0.012 0.72 0.1
+}
+Wall {
+  translation 1.50616 -2.42203 2.88659e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(4)"
+  size 0.012 2.16 0.1
+}
+Wall {
+  translation -1.37495 2.62053 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(5)"
+  size 0.012 2.16 0.1
+}
+Wall {
+  translation -1.3746 2.97053 3.55272e-15
+  rotation 0 0 1 -1.5715853071795864
+  name "frontWall(99)"
+  size 0.012 2.16 0.1
+}
+Wall {
+  translation -2.4578 0.101388 3.55272e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(2)"
+  size 0.012 5.04 0.1
+}
+Wall {
+  translation -2.8178 0.101676 3.55272e-15
+  rotation 0 0 1 3.1408
+  name "frontWall(100)"
+  size 0.012 5.04 0.1
+}
+Robot {
+  translation 2.76865 2.91733 -0.000176429
+  rotation -2.166993061836461e-06 -2.1608887521303607e-06 -0.9999999999953173 1.5713661724198293
+  children [
+    Gyro {
+      translation 0 0 0.054
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.04
+          }
+        }
+      ]
+    }
+    DEF Body Pose {
+      translation 0 0 0.035
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.321569 0.34902 0.282353
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.15 0.136 0.04
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0 0.07 0.047
+      rotation 0 0 1 1.5707996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Capsule {
+            height 0.011
+            radius 0.005
+          }
+        }
+      ]
+      name "DL"
+      lookupTable [
+        0 1000 0
+        0.5 500 0
+        1 0 0
+      ]
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0 -0.07 0.047
+      rotation 0 0 1 -1.5707996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Capsule {
+            height 0.011
+            radius 0.005
+          }
+        }
+      ]
+      name "DR"
+      lookupTable [
+        0 1000 0
+        0.5 500 0
+        1 0 0
+      ]
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0.0514 0.07 0.06
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Capsule {
+            height 0.011
+            radius 0.005
+          }
+        }
+      ]
+      name "DFLeft"
+      lookupTable [
+        0 1000 0
+        0.5 500 0
+        1 0 0
+      ]
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0.0514 -0.07 0.06
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Capsule {
+            height 0.011
+            radius 0.005
+          }
+        }
+      ]
+      name "DFRight"
+      lookupTable [
+        0 1000 0
+        0.5 500 0
+        1 0 0
+      ]
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0.0514 0.01 0.06
+      rotation 0 0 1 1.0472003061004251
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Capsule {
+            height 0.011
+            radius 0.005
+          }
+        }
+      ]
+      name "DL45"
+      lookupTable [
+        0 1000 0
+        0.5 500 0
+        1 0 0
+      ]
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0.0514 -0.01 0.06
+      rotation 0 0 1 -1.0471996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Capsule {
+            height 0.011
+            radius 0.005
+          }
+        }
+      ]
+      name "DR45"
+      lookupTable [
+        0 1000 0
+        0.5 500 0
+        1 0 0
+      ]
+      type "infra-red"
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 33359.24367277114
+        axis 0 1 0
+        anchor 0.03 0.073 0.022
+      }
+      device [
+        PositionSensor {
+          name "enL"
+        }
+        RotationalMotor {
+          name "M1"
+          maxVelocity 30
+        }
+      ]
+      endPoint Solid {
+        translation 0.030000000000000006 0.07300000000000018 0.021999999999999967
+        rotation -0.48443164896216184 -0.6185965569587177 0.6185986398325011 4.043821088836252
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.011
+              radius 0.022
+            }
+          }
+        ]
+        name "wheel1"
+        boundingObject USE wheel
+        physics DEF wheelphysics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 45300.74447303017
+        axis 0 1 0
+        anchor 0.03 -0.073 0.022
+      }
+      device [
+        PositionSensor {
+          name "enR"
+        }
+        RotationalMotor {
+          name "M3"
+          maxVelocity 30
+        }
+      ]
+      endPoint Solid {
+        translation 0.029999999999999912 -0.07299999999999973 0.021999999999999995
+        rotation 0.7837165535144711 -0.43919646216782643 0.439197940986367 1.8121302287151104
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.011
+              radius 0.022
+            }
+          }
+        ]
+        name "wheel3"
+        boundingObject USE wheel
+        physics DEF wheelphysics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 33359.24744154198
+        axis 0 1 0
+        anchor -0.03 0.073 0.022
+      }
+      device [
+        RotationalMotor {
+          name "M2"
+          maxVelocity 30
+        }
+      ]
+      endPoint Solid {
+        translation -0.029999999999999995 0.07300000000000018 0.02200000000000003
+        rotation -0.48299072409928645 -0.6191627597027077 0.6191586528761217 4.041493509420366
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.011
+              radius 0.022
+            }
+          }
+        ]
+        name "wheel2"
+        boundingObject USE wheel
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 45300.638152378066
+        axis 0 1 0
+        anchor -0.03 -0.073 0.022
+      }
+      device [
+        RotationalMotor {
+          name "M4"
+          maxVelocity 30
+        }
+      ]
+      endPoint Solid {
+        translation -0.03000000000000003 -0.07299999999999973 0.02200000000000001
+        rotation 0.7453449551556341 -0.4714148098437976 0.47141168301600445 1.8605558628116496
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0 0 0
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.011
+              radius 0.022
+            }
+          }
+        ]
+        name "wheel4"
+        boundingObject USE wheel
+        physics Physics {
+        }
+      }
+    }
+  ]
+  boundingObject USE Body
+  physics Physics {
+  }
+  controller "Stupid_10"
+}
+RectangleArena {
+  translation 0.0638632 0.0994714 0
+  floorSize 7.2 7.2
+  floorTileSize 0.72 0.72
+}
+Solid {
+  translation 0.0608759 0.105144 -0.0039
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.101961 0.498039 0.0117647
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.72 0.72 0.01
+      }
+    }
+  ]
+}
